@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TRIPKIT_-_PROJECT.iml" filepath="$PROJECT_DIR$/.idea/modules/TRIPKIT_-_PROJECT.iml" group="TRIPKIT_-_PROJECT" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="TRIPKIT - PROJECT/app" />
+    </modules>
+  </component>
+</project>
