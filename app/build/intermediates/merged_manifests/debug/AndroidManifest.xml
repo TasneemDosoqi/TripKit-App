@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tripkit_project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.tripkit_project.Review_event" />
+        <activity android:name="com.example.tripkit_project.Ticket" />
+        <activity android:name="com.example.tripkit_project.Term" />
+        <activity android:name="com.example.tripkit_project.Privacy" />
+        <activity android:name="com.example.tripkit_project.PaymentMethod" />
+        <activity android:name="com.example.tripkit_project.PersonalInfo" />
+        <activity android:name="com.example.tripkit_project.Flight" />
+        <activity android:name="com.example.tripkit_project.tripSearch" />
+        <activity android:name="com.example.tripkit_project.SingleEvent" />
+        <activity android:name="com.example.tripkit_project.Account" />
+        <activity android:name="com.example.tripkit_project.Events" />
+        <activity android:name="com.example.tripkit_project.Discover" />
+        <activity
+            android:name="com.example.tripkit_project.SplashActivity"
+            android:theme="@style/AppTheme.ActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.tripkit_project.signin" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+                <action android:name="android.intent.action.ACTION_AIRPLANE_MODE_CHANGEDE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.tripkit_project.signup" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

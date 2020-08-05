@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Term"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70px"
+        android:layout_marginLeft="70px"
+        android:layout_marginTop="140px"
+        android:text="TripKit Term of Service"
+        android:textColor="#1F618D"
+        android:textSize="50px"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Our mission is to empower people to experience the world, by offering the world best places to stay and greatest places and attractions to visit in the most convenient way. In order to achieve this goal, we will live up to the following good practices:\n We care about you and therefore offer our Platform and customer service in 40+ languages
+    We bring and allow you to experience: 1.5m+ properties from high (high) end to whatever serves your needs for your next stay in a hotel, motel, hostel etc. wherever on the planet
+    We bring and allow you to experience attractions and other Trip Providers
+    We can facilitate the payment of any (entrance) fee, purchase or hire of any Trip product and service which uses our payment service
+    We help you (24/7): our customer service centers are here to help you 24-7-365-40+
+    We listen to you: our Platform is the product of what YOU (the users) prefer and find most convenient when using our service
+    "
+        android:textColor="#1F618D"
+        android:layout_marginTop="20px"
+        android:layout_marginStart="70px"
+        android:layout_marginEnd="70px"
+        android:lineSpacingExtra="20px"
+        />
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.tripkit_project.BottomNavigationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="80px"
+        tools:layout="@layout/fragment_bottom_navigation" />
+
+</LinearLayout>

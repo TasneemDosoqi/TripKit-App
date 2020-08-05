@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="388dp"
+        android:layout_height="216dp"
+        android:layout_gravity="center"
+        android:background="@drawable/item_holder"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/airplane1" />
+
+
+        <TextView
+            android:id="@+id/airline2"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imageView2"
+            android:text="Airline "
+            android:textColor="#034758"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/lin1"
+            android:layout_width="352dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/depart2"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="From"
+                android:textAlignment="center"
+                android:textColor="#034758"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dash1"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/depart2"
+                android:text="-->"
+                android:textColor="#034758"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desCity2"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/dash1"
+                android:text="To"
+                android:textAlignment="center"
+                android:textColor="#034758"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin2"
+            android:layout_width="352dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/lin1"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/timeDepart2"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="FTime"
+                android:textAlignment="center"
+                android:textColor="#034758"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dash2"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/timeDepart2"
+                android:text="-->"
+                android:textColor="#034758"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/timeDes2"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/dash2"
+                android:text="T_Time"
+                android:textAlignment="center"
+                android:textColor="#034758"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin3"
+            android:layout_width="352dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/lin2"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/price22"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Price :"
+                android:textAlignment="center"
+                android:textColor="#034758"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/price2"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/price22"
+                android:text="price"
+                android:textColor="#034758"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/price"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/price2"
+                android:text="SR"
+                android:textAlignment="center"
+                android:textColor="#034758"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/bookNow"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lin3"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:text="BOOK NOW"
+            android:textAlignment="center"
+            android:textColor="#034758"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</LinearLayout>

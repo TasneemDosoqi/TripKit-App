@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Privacy"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70px"
+        android:layout_marginLeft="70px"
+        android:layout_marginTop="140px"
+        android:text="TripKit Privacy Policy"
+        android:textColor="#1F618D"
+        android:textSize="50px"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="kind of thing all these sorts of notices say but frankly we mean it
+        You have placed your trust in us by using the TripKit services and we value that trust.
+         \n That means we are committed to protecting and safeguarding any personal data you give us We act in our customers interest
+         and we are transparent about the processing of your personal data \n
+This document describes how we use and process your personal data, hopefully provided in a readable and transparent manner so you can get where we’re coming from without getting
+bored senseless. \n
+As an added bonus, it also tells you how to contact us if you have questions about your personal data, which we’re more than happy to answer. Please also read our separate 
+Cookie Statement, which tells you how Trip Kit makes use of cookies and other similar technologies. For a better understanding of what we mean by Trip, Trip Provider, Trip Service and Trip Reservation"
+        android:textColor="#1F618D"
+        android:layout_marginTop="60px"
+        android:layout_marginStart="70px"
+        android:layout_marginEnd="70px"
+        android:lineSpacingExtra="20px"
+        />
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.tripkit_project.BottomNavigationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="40px"
+        tools:layout="@layout/fragment_bottom_navigation" />
+
+</LinearLayout>

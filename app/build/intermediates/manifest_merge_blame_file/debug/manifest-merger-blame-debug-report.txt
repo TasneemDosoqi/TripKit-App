@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tripkit_project"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:5:5-80
+11-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:7:5-65
+13-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:8:5-81
+14-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:9:5-92
+15-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:9:22-73
+16    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+16-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:10:5-92
+16-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:10:22-73
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:8:5-81
+17-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:8:22-78
+18
+19    <application
+19-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:13:5-57:19
+20        android:allowBackup="false"
+20-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:14:9-36
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] /Users/s_rahaf/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:15:9-43
+24        android:label="@string/app_name"
+24-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:16:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:17:9-54
+26        android:supportsRtl="true"
+26-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:18:9-35
+27        android:theme="@style/AppTheme" >
+27-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:19:9-40
+28        <activity android:name="com.example.tripkit_project.Review_event" />
+28-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:20:9-50
+28-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:20:19-47
+29        <activity android:name="com.example.tripkit_project.Ticket" />
+29-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:21:9-44
+29-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:21:19-41
+30        <activity android:name="com.example.tripkit_project.Term" />
+30-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:22:9-42
+30-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:22:19-39
+31        <activity android:name="com.example.tripkit_project.Privacy" />
+31-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:23:9-45
+31-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:23:19-42
+32        <activity android:name="com.example.tripkit_project.PaymentMethod" />
+32-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:24:9-51
+32-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:24:19-48
+33        <activity android:name="com.example.tripkit_project.PersonalInfo" />
+33-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:25:9-50
+33-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:25:19-47
+34        <activity android:name="com.example.tripkit_project.Flight" />
+34-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:26:9-44
+34-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:26:19-41
+35        <activity android:name="com.example.tripkit_project.tripSearch" />
+35-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:27:9-48
+35-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:27:19-45
+36        <activity android:name="com.example.tripkit_project.SingleEvent" />
+36-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:28:9-49
+36-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:28:19-46
+37        <activity android:name="com.example.tripkit_project.Account" />
+37-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:29:9-45
+37-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:29:19-42
+38        <activity android:name="com.example.tripkit_project.Events" />
+38-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:30:9-44
+38-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:30:19-41
+39        <activity android:name="com.example.tripkit_project.Discover" />
+39-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:31:9-46
+39-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:31:19-43
+40        <activity
+40-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:33:9-41:20
+41            android:name="com.example.tripkit_project.SplashActivity"
+41-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:34:13-43
+42            android:theme="@style/AppTheme.ActionBar" >
+42-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:35:13-54
+43            <intent-filter>
+43-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:36:13-40:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:37:17-69
+44-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:37:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:39:17-77
+46-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:39:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.example.tripkit_project.signin" >
+49-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:42:9-49:20
+49-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:42:19-41
+50            <intent-filter>
+50-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:43:13-48:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:37:17-69
+51-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:37:25-66
+52                <action android:name="android.intent.action.AIRPLANE_MODE" />
+52-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:45:17-77
+52-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:45:25-75
+53                <action android:name="android.intent.action.ACTION_AIRPLANE_MODE_CHANGEDE" />
+53-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:46:17-93
+53-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:46:25-91
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:39:17-77
+55-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:39:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity android:name="com.example.tripkit_project.signup" >
+58-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:50:9-56:20
+58-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:50:19-41
+59            <intent-filter>
+59-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:36:13-40:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:37:17-69
+60-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:37:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:39:17-77
+62-->/Users/s_rahaf/Desktop/afterHana/afterHana/TRIPKITPROJECTFinal-1/app/src/main/AndroidManifest.xml:39:27-74
+63            </intent-filter>
+64        </activity>
+65    </application>
+66
+67</manifest>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tripSearch"
+    android:background="#f2f2f2">
+
+    <LinearLayout
+        android:id="@+id/lytFlight"
+        android:layout_width="fill_parent"
+        android:layout_height="53dp"
+        android:layout_marginBottom="10dp"
+        android:background="#46A5B9"
+        android:gravity="center_vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="262dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="0dp"
+            android:text="Where Are You Going?"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/airplane" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="388dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/lytFlight"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/item_holder"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/linfrom1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cityFrom"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="From :"
+                android:textAlignment="center"
+                android:textColor="#034758"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/fromCiry"
+                android:layout_width="238dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/cityFrom"
+                android:hint="Enter depart city"
+                android:textColor="#034758"
+                android:textCursorDrawable="@android:color/background_light"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linto1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/linfrom1"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cityTo"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="To :"
+                android:textAlignment="center"
+                android:textColor="#034758"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/toCity"
+                android:layout_width="238dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/cityTo"
+                android:hint="Enter your destination"
+                android:textColor="#034758"
+                android:textCursorDrawable="@android:color/background_light"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel2"
+        android:layout_width="388dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/rel1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/item_holder"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/linfrom"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/DateFrom"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Dparture date:"
+                android:textAlignment="center"
+                android:textColor="#034758"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/fromDate"
+                android:layout_width="222dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/DateFrom"
+                android:hint="2019-03-15"
+                android:inputType="date"
+                android:textColor="#034758"
+                android:textCursorDrawable="@android:color/background_light"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linfrom2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/linfrom"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dateTo"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Return date:"
+                android:textAlignment="center"
+                android:textColor="#034758"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/toDate"
+                android:layout_width="224dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/dateTo"
+                android:hint="2019-03-15"
+                android:inputType="date"
+                android:textColor="#034758"
+                android:textCursorDrawable="@android:color/background_light"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel3"
+        android:layout_width="388dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/rel2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/item_holder"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/linfrom3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/classType"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="2dp"
+                android:text="Class:"
+                android:textAlignment="center"
+                android:textColor="#034758"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rgroup"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/classType"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/FristClass"
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:onClick="checkButton"
+                    android:text="First"
+                    android:textColor="#034758" />
+
+                <RadioButton
+                    android:id="@+id/EcoClass"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:onClick="checkButton"
+                    android:text="Economy"
+                    android:textColor="#034758" />
+
+                <RadioButton
+                    android:id="@+id/BussClass"
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:onClick="checkButton"
+                    android:text="Business"
+                    android:textColor="#034758" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linfrom4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/linfrom3"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/travelerText"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Traveler:"
+                android:textAlignment="center"
+                android:textColor="#034758"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/travelNo"
+                android:layout_width="224dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/travelerText"
+                android:hint="Number of seat"
+                android:inputType="number"
+                android:textColor="#034758"
+                android:textCursorDrawable="@android:color/background_light"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/searchflight"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/rel3"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#46A5B9"
+        android:shadowColor="#8D242222"
+        android:shadowDx="2"
+        android:shadowDy="10"
+        android:shadowRadius="20"
+        android:text="Search flight"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.tripkit_project.BottomNavigationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_alignParentBottom="true"
+        tools:layout="@layout/fragment_bottom_navigation" />
+
+</RelativeLayout>

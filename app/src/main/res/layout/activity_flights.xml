@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lytSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="69dp"
+        android:background="#46A5B9"
+        android:gravity="center_vertical"
+        android:visibility="visible" >
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="64dp"
+            android:layout_height="37dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/from"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:inputType="text"
+            android:padding="7dp"
+            android:text="Available Flights"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/plane"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:padding="7dp"
+            android:src="@drawable/airplane" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listMenu"
+        android:layout_width="match_parent"
+        android:layout_height="465dp"
+        android:layout_below="@+id/lytSearch"
+        android:background="#f2f2f2"
+        android:divider="@null"
+        android:padding="5dp" />
+
+
+
+
+
+</LinearLayout>
+

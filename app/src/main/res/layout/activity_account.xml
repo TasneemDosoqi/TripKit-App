@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Account"
+    android:orientation="vertical">
+
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/download" />
+
+
+        <ImageButton
+            android:id="@+id/profileButton"
+            android:layout_width="25dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="1000px"
+            android:layout_marginLeft="150px"
+            android:layout_marginTop="25px"
+            android:layout_marginEnd="100px"
+            android:layout_marginRight="100px"
+            android:layout_weight="0"
+            android:background="#F9F9F9"
+            app:srcCompat="@drawable/round_arrow_back_ios_black_18dp" />
+
+        <TextView
+            android:id="@+id/accounttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="-25dp"
+            android:text="Import Image"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/imagetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="-130dp"
+            android:text="Account Page"
+            android:textColor="#034758"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+
+
+
+        <TextView
+            android:id="@+id/userNameView"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="180px"
+            android:layout_marginRight="100px"
+            android:ems="15"
+            android:text='Welcome: '
+            android:textColor="#034758"
+            android:textSize="50px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/userView"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="-63px"
+            android:layout_marginRight="100px"
+            android:ems="15"
+
+            android:textColor="#034758"
+            android:textSize="50px"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/showHistoryView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="100px"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="0"
+            android:text="Show Trips History "
+            android:textColor="#034758"
+            android:textSize="50px" />
+
+        <ImageButton
+            android:id="@+id/historyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginStart="192dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="-65px"
+            android:layout_marginEnd="100px"
+            android:layout_marginRight="100dp"
+            android:layout_weight="0"
+            android:background="#F9F9F9"
+            android:onClick="showTrips"
+            app:srcCompat="@drawable/round_arrow_back_ios_black_18dp" />
+
+        <TextView
+            android:id="@+id/personalInfoView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="130px"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="0"
+            android:text=" Personal Information"
+            android:textColor="#034758"
+            android:textSize="50px" />
+
+        <ImageButton
+            android:id="@+id/InfoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="-65px"
+            android:layout_marginEnd="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_weight="0"
+            android:background="#F9F9F9"
+            android:onClick="personalInfo"
+            app:srcCompat="@drawable/round_arrow_back_ios_black_18dp" />
+
+        <TextView
+            android:id="@+id/changePaymentView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="130px"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="0"
+            android:text=" Payment Method"
+            android:textColor="#034758"
+            android:textSize="50px" />
+
+        <ImageButton
+            android:id="@+id/PaymentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="-65px"
+            android:layout_marginEnd="130px"
+            android:layout_marginRight="100px"
+            android:layout_weight="0"
+            android:background="#F9F9F9"
+            android:onClick="PaymentMethod"
+            app:srcCompat="@drawable/round_arrow_back_ios_black_18dp" />
+
+        <TextView
+            android:id="@+id/privacyView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="130px"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="0"
+            android:text="Privacy Policy"
+            android:textColor="#034758"
+            android:textSize="50px" />
+
+        <ImageButton
+            android:id="@+id/PolicyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="-65px"
+            android:layout_marginEnd="100px"
+            android:layout_marginRight="100px"
+            android:layout_weight="0"
+            android:background="#F9F9F9"
+
+            android:onClick="Privacy"
+            app:srcCompat="@drawable/round_arrow_back_ios_black_18dp" />
+
+        <TextView
+            android:id="@+id/termView"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="120px"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="0"
+            android:text="Terms of Use"
+            android:textColor="#034758"
+            android:textSize="50px" />
+
+        <ImageButton
+            android:id="@+id/TermButton"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginStart="350px"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="-65px"
+            android:layout_marginEnd="130px"
+            android:layout_marginRight="100px"
+            android:layout_weight="0"
+            android:background="#F9F9F9"
+
+            android:onClick="Term"
+            app:srcCompat="@drawable/round_arrow_back_ios_black_18dp" />
+
+        <fragment
+            android:id="@+id/fragment"
+            android:name="com.example.tripkit_project.BottomNavigationFragment"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginTop="40px"
+            tools:layout="@layout/fragment_bottom_navigation" />
+
+   
+</LinearLayout>

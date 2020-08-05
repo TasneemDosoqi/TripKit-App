@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Discover">
+
+
+    <LinearLayout
+        android:id="@+id/lytevent"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="#46A5B9"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/eventBkLabel2"
+            android:layout_width="255dp"
+            android:layout_height="41dp"
+            android:text="Discover Page"
+            android:textAlignment="center"
+            android:textColor="#F9F9F9"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="384dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="25dp"
+        android:text="Turn a trip into an adventure"
+        android:textColor="#034758"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/tripkit" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="305dp"
+        android:layout_height="56dp"
+
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Read Reviews, Compare and Book Deals! for your next distnation:"
+        android:textAlignment="center"
+        android:textColor="#034758"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Website"
+        android:layout_width="308dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Your Distnation"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/serach"
+        android:layout_width="308dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="#46A5B9"
+        android:onClick="search"
+        android:shadowColor="#8D242222"
+        android:shadowDx="2"
+        android:shadowDy="10"
+        android:shadowRadius="20"
+        android:text="SEARCH"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.tripkit_project.BottomNavigationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp"
+
+        tools:layout="@layout/fragment_bottom_navigation" />
+</LinearLayout>
